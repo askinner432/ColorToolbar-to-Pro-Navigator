@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ClassFactory>
+  <ScriptClass
+    classID="{D2CE4B38-078D-43A7-9F6C-BE4A730990A0}"
+    category="EditTask"
+    subCategory="TrackEdit"
+    name="Convert ColorToolbar Setup to Pro Navigator Preset"
+    sourceFile="color-toolbar-to-pronavigator.js"
+    functionName="createInstance"
+    metaClassID="{B6099740-B26D-4BC3-A471-CBAAAED8CADC}">
+    <Attribute id="menuPriority" value="-1"/>
+  </ScriptClass>
+</ClassFactory>

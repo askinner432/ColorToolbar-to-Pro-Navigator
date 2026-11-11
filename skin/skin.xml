@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Skin>
+  <Styles>
+    <Style name="ConverterText" inherit="Standard.AddIn.Label">
+      <Font name="textfont" themeid="PresonusUI" size="14"/>
+    </Style>
+    <Style name="ConverterBoldText" inherit="Standard.AddIn.Label">
+      <Font name="textfont" themeid="PresonusUI" size="15" bold="true"/>
+    </Style>
+    <Style name="ConverterCheckBox" inherit="Standard.CheckBox">
+      <Font name="textfont" themeid="PresonusUI" size="14"/>
+    </Style>
+  </Styles>
+  <Forms>
+    <Form name="ColorToolbarConverterDialog" title="ColorToolbar to Pro Navigator Preset">
+      <Vertical margin="12" spacing="6">
+        <Label title="This script requires the add-in &quot;Pro Navigator&quot; by Lukas Ruschitzka" style="ConverterBoldText" attach="left right"/>
+        <Label title="" height="8"/>
+        <Label title="Description: Recreates your ColorToolbar keyword colors in Pro Navigator so tracks can use the same coloring rules." style="ConverterText" attach="left right"/>
+        <Label title="" height="8"/>
+        <Label title="Usage:" style="ConverterText"/>
+        <Label title="" height="8"/>
+        <Label title="1. Open ColorToolbar 3 and click the down arrow to the left of the &quot;Conform&quot; button." style="ConverterText" attach="left right"/>
+        <Label title="2. Choose &quot;Export Setup&quot; and save your file." style="ConverterText" attach="left right"/>
+        <Label title="3. Open &quot;Edit Rules&quot; in the Color Wizard group of Pro Navigator." style="ConverterText" attach="left right"/>
+        <Label title="4. Click the &quot;Manage&quot; button and select &quot;Import&quot;." style="ConverterText" attach="left right"/>
+        <Label title="5. Select the ColorToolbar 3 file that you exported. Your colors and instruments should all appear in Pro Navigator." style="ConverterText" attach="left right"/>
+        <Label title="" height="8"/>
+        <CheckBox name="UseGradient" value="0" title="Use gradient" style="ConverterCheckBox"/>
+      </Vertical>
+    </Form>
+  </Forms>
+</Skin>
