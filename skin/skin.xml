@@ -20,11 +20,11 @@
         <Label title="" height="8"/>
         <Label title="Usage:" style="ConverterText"/>
         <Label title="" height="8"/>
-        <Label title="1. Open ColorToolbar 3 and click the down arrow to the left of the &quot;Conform&quot; button." style="ConverterText" attach="left right"/>
-        <Label title="2. Choose &quot;Export Setup&quot; and save your file." style="ConverterText" attach="left right"/>
-        <Label title="3. Open &quot;Edit Rules&quot; in the Color Wizard group of Pro Navigator." style="ConverterText" attach="left right"/>
-        <Label title="4. Click the &quot;Manage&quot; button and select &quot;Import&quot;." style="ConverterText" attach="left right"/>
-        <Label title="5. Select the ColorToolbar 3 file that you exported. Your colors and instruments should all appear in Pro Navigator." style="ConverterText" attach="left right"/>
+        <Label title="1. In ColorToolbar 3, click the down arrow to the left of the &quot;Conform&quot; button. Choose &quot;Export Setup&quot; and save the setup file." style="ConverterText" attach="left right"/>
+        <Label title="2. Run this script. Select the exported ColorToolbar setup file when prompted, then choose where to save the converted .autocolorpreset." style="ConverterText" attach="left right"/>
+        <Label title="3. In Pro Navigator&apos;s Color Wizard group, open &quot;Edit Rules&quot;." style="ConverterText" attach="left right"/>
+        <Label title="4. Click &quot;Manage&quot; at the bottom right and choose &quot;Import&quot;." style="ConverterText" attach="left right"/>
+        <Label title="5. Select the converted .autocolorpreset file." style="ConverterText" attach="left right"/>
         <Label title="" height="8"/>
         <CheckBox name="UseGradient" value="0" title="Use gradient" style="ConverterCheckBox"/>
       </Vertical>

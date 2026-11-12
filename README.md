@@ -10,11 +10,11 @@ It reads keyword rules from ColorToolbar color groups 1–6, keeping the slot or
 
 ## Usage
 
-1. Open ColorToolbar 3 and click the down arrow to the left of the **Conform** button.
-2. Choose **Export Setup** and save the file.
-3. Open **Edit Rules** in Pro Navigator's **Color Wizard** group.
-4. Click **Manage** and select **Import**.
-5. Select the ColorToolbar 3 file you exported. Your colors and instruments should appear in Pro Navigator.
+1. In ColorToolbar 3, click the down arrow to the left of the **Conform** button. Choose **Export Setup** and save the setup file.
+2. Run this script. Select the exported ColorToolbar setup file when prompted, then choose where to save the converted `.autocolorpreset`.
+3. In Pro Navigator's **Color Wizard** group, open **Edit Rules**.
+4. Click **Manage** at the bottom right and choose **Import**.
+5. Select the converted `.autocolorpreset` file.
 
 The converter writes a separate `.autocolorpreset`; it does not modify existing Pro Navigator presets or rules. The **Use gradient** checkbox controls whether generated rules use a gradient. The dialog does not show a rule or color preview.
 
